@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="MK" href="images/iconpage.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        
+        body{
+            background-color: rgb(255,182,193);
+        }
+        .navbar{
+            background-color: rgb(0, 0, 0);
+            padding: 8px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        } 
+            .espacio{
+            height: 60px;
+        }
+        .conten_navbar{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;  
+        }
+        .nav_item{
+            color: #ffe4e1;
+            text-decoration: none;
+            font-family:Arial, Helvetica, sans-serif;
+            padding: 10px;
+            transition: background-color 0.5s;
+            font-size: 18px; 
+            border-radius: 5px;
+        }
+    
+        .nav_item:hover{
+            background-color: #cf3476;
+            color: white;
+            border-radius: 5px;
+        }
+
+            .titulos{
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration:solid,#fff,4px;
+            font-size: 40px;
+        }
+
+            .info{
+            color: rgb(3, 2, 2);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 27px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+            .tituloDeco{
+            text-align: center;
+            color: rgb(149, 235, 115);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration:overline,#0c3307,4px;
+            text-shadow: #0c3307,3px;
+            background-color: #00000071;
+            font-size: 37px;
+        }
+        hr{
+            color: #000;
+            border-width:1;
+            border-color: #000;
+        }
+        .contacto{
+            display: flex;
+            justify-content: center;
+        }
+        .media{
+            margin-left: 50px;
+        }
+        @media(max-width:300px){
+            .media{
+                margin-left: 30px;
+            }
+        }
+        @media(max-width:550px){
+            .navbar{
+                flex-direction: column;
+                gap: 10px;
+            }
+            body{
+                margin-top: 230px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="conten_navbar"> 
+        <nav class="navbar">
+        <img src="images/LOGO MK.jpg" alt="Logo MK" width="60px">
+        <a href="Mary_Kay.html" class="nav_item">Home</a>
+        <a href="Products.html" class="nav_item">Products</a>
+        <a href="AboutUs.html" class="nav_item">About Us</a>
+        <a href="Sell_Mary_Kay.html" class="nav_item">Sell Mary Kay</a>
+        </nav>
+        </div>
+        <div class="espacio"></div>
+        <h1 class="titulos"> About Us</h1>
+       <hr>
+    <p class="info">
+        Una marca icónica no se construye en un día. Durante más de 50 años, Mary Kay Inc. <br>
+        ha empoderado a las mujeres y al mismo tiempo ha cambiado el mundo de los negocios.<br>
+        A continuación se presentan sólo algunos momentos históricos de décadas de trabajo visionario.<br> 
+        ¿Quieres saber más sobre la mujer icónica detrás de la marca? <br> 
+    </p>
+    <p class="info">
+        Conoce más sobre &nbsp; <a href="https://www.marykay.com/es-us/about-mary-kay/our-founder" target="_blank"> Mary Kay Ash </a> &nbsp; nuestra fundadora.
+    </p>
+        
+    <h2 class="tituloDeco"> No podríamos tener el rosa sin el VERDE.</h2>
+    <p class="info">
+        “Sostentabilidad” es un término que se escucha habitualmente en estos días, pero...<br>
+        ¿Alguna vez te has preguntado realmente que significa? <br>
+        Sostenibilidad significa satisfacer nuestras necesidades actuales sin comprometer la<br>
+         capacidad de las generaciones futuras para satisfacer las suyas.
+    </p>
+    <h3 class="titulos">Nuestro compromiso constante</h3>
+    <p class="info">
+        Hemos donado más de 200 millones de parte de Mary Kay Inc. y la Mary Kay Ash Foundation<br>
+        desde 1963 para proporcionar servicios de investigación y apoyo para los tipos de cáncer<br>
+        que afectan a la mujer, y para ayudar a poner fin a la violencia doméstica, embellecer y <br>
+        salvaguardar nuestro planeta y nuestras comunidades, y para motivar a las niñas a cumplir <br>
+        sus sueños.
+    </p>
+    <h4 class="titulos"> Nuestras redes sociales:</h4>
+    <section class="contacto" >
+        <a href="https://www.instagram.com/marykayargentina/" target="_blank"><img src="images/instagram.png" alt="Instagram" class="media" width=50px></a>
+        <a href="https://m.facebook.com/marykayargentinaoficial/?locale=ms_MY" target="_blank"><img src="images/facebook.png" class="media" alt="Facebook" width=50px></a>
+        <a href="https://x.com/MaryKay_ARG?s=20" target="_blank"><img src="images/twitter.png" alt="X" class="media" width=50px></a>
+        <a href="https://www.youtube.com/@MaryKayArgentinaMK" target="_blank"><img src="images/youtube.png" alt="Youtube" class="media" width=50px></a>
+    </section>
+    <footer>
+        <hr>
+        <p>&copy; 2023 Mary Kay Cosmeticos - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

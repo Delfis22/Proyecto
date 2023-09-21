@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="MK" href="images/iconpage.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Mary Kay</title>
+    <style>
+        body{
+            background-color: rgb(255,182,193);
+        }
+        .navbar{
+            background-color: rgb(0, 0, 0);
+            padding: 8px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        } 
+        .espacio{
+            height: 60px;
+        }
+        .conten_navbar{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;  
+        }
+        .cont-foto{
+            display: flex;
+            justify-content: center;
+        }
+        .nav_item{
+            color: #ffe4e1;
+            text-decoration: none;
+            font-family:Arial, Helvetica, sans-serif;
+            padding: 10px;
+            transition: background-color 0.5s;
+            font-size: 18px; 
+            border-radius: 5px;
+        }
+        .años{
+            margin-top: 25px;
+        }
+    
+        .nav_item:hover{
+            background-color: #cf3476;
+            color: white;
+            border-radius: 5px;}
+
+            .titulos{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            color: rgb(0, 0, 0);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration:solid,#fff,4px;
+            font-size: 25px;
+            
+        }
+
+        .info{
+            color: rgb(3, 2, 2);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+        }
+        .video-intro{
+            display: flex;
+            justify-content: center;
+        }
+        @media (width<=840){
+            .info{
+                font-size: 60px;
+            }
+        }
+       @media(max-width:530px){
+        .navbar{
+            flex-direction: column;
+            gap: 8px;
+        }
+        video{
+            width: 100%;
+        }
+        .video-intro{
+            justify-content: center;
+            width: 100%;
+        }
+        body{
+            margin-top: 200px;
+        }
+        .titulos{
+            font-size: 40px;
+        }
+        .mujeres{
+            width: 100%;
+        }
+        .años{
+            width: 100%;
+        }
+       }
+       .mision{
+        display: flex;
+        justify-content: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="conten_navbar"> 
+    <nav class="navbar">
+    <img src="images/LOGO MK.jpg" alt="Logo MK" width="60px">
+    <a href="Mary_Kay.html" class="nav_item">Home</a>
+    <a href="Products.html" class="nav_item">Products</a>
+    <a href="AboutUs.html" class="nav_item">About Us</a>
+    <a href="Sell_Mary_Kay.html" class="nav_item">Sell Mary Kay</a>
+    </nav>
+    </div>
+    <div class="espacio"></div>
+    <h1 class="titulos"> Mary Kay</h1>
+    <div class="video-intro">
+        <video height="300px" controls> 
+            <source src="marykay.mp4" type="video/mp4">
+        </video>
+    </div>
+    <h2 class="titulos"> Nuestra misión</h2>
+    <div class="mision">
+        <p class="info">
+            Desde 1963 nuestro objetivo ha sido Enriquecer la vida de la mujer y su familia. <br> <br>
+            Lo que iniciamos AYER, por lo que luchamos HOY, y donde SIEMPRE enfocaremos nuestro compromiso: <br>
+            Empoderar a las mujeres para que se sientan seguras de sí mismas, reconozcan su belleza única y <br>
+            alcancen sus metas, sin importar cuán grandes o pequeñas. Y no podríamos hacerlo sin TI.
+        </p>
+    </div>
+    <div class="cont-foto">
+        <img src="images/mujeres.jpg" alt="mujeres unidas" width="500px" class="mujeres">
+    </div>
+    <div class="cont-foto">
+        <img src="images/60años.png" alt="Aniversario MK" width="500px" class="años">
+    </div>
+    <div class="espacio"></div>
+    <footer>
+        <hr>
+        <p>&copy; 2023 Mary Kay Cosmeticos - Todos los derechos reservados</p>
+    </footer>
+</body>
