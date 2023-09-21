@@ -74,16 +74,16 @@
             border-width:1;
             border-color: #000;
         }
-        .contacto{
-            display: flex;
-            justify-content: center;
-        }
         .media{
             margin-left: 50px;
         }
         @media(max-width:300px){
             .media{
                 margin-left: 30px;
+            }
+            .contacto{
+                display: flex;
+                justify-content: center;
             }
         }
         @media(max-width:550px){
@@ -93,6 +93,15 @@
             }
             body{
                 margin-top: 230px;
+            }
+            @media(max-width:300px){
+                .contacto{
+                display: flex;
+                justify-content: center;
+            }
+            .media{
+                margin-left: 10px;
+            }
             }
         }
     </style>
